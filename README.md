@@ -37,6 +37,9 @@ and run the application.
 		3. From the list select Jar->Runnable Jar. Click next.
 		4. Provide name and location for the Jar and click finish.
 
+    c. Copying Static library files
+        1. Copy the C++ static library file "Test.so" to folder location "/home/ec2-user/temp/"
+
 
 ## Hadoop:
 
