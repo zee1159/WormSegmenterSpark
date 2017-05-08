@@ -12,7 +12,7 @@ Running the WormSegmenter on Spark cluster.
 This document provides the details about how to install the required application files, change configurations 
 and run the application with required datasets.
 
-Java Application:
+# Java Application:
 
 	a. Creating the header file for JNI
 		1. Start Eclipse and imnport the java project WormSegmenter.
@@ -38,7 +38,7 @@ Java Application:
 		4. Provide name and location for the Jar and click finish.
 
 
-Hadoop:
+# Hadoop:
 
 	1. Login to the master node. Using FileZilla or scp tools copy the following scripts on the root location.
 			a. install_scripts.sh
@@ -96,7 +96,7 @@ Hadoop:
 			$ stop-yarn.sh
 
 
-Spark (standalone mode):
+# Spark (standalone mode):
 
 	1. If you have already installed as instructed in the above instructions then continue to Step-2 or else go through the  
 	   Steps 1 to 10 in the Hadoop installation instructions.
@@ -129,7 +129,7 @@ Spark (standalone mode):
 			$ ./stop-slave.sh
 
 
-Spark (Cluster mode):
+# Spark (Cluster mode):
 
 	1. Logon to any AWS instance and go through the Step - 1 to Step - 3 in the Hadoop installation instructions.
 
