@@ -13,6 +13,7 @@ This document provides the details about how to install the required application
 and run the application with required datasets.
 
 Java Application:
+
 	a. Creating the header file for JNI
 		1. Start Eclipse and imnport the java project WormSegmenter.
 		2. From the menu select Run>External Tools>External Tools Configurations… 
@@ -38,6 +39,7 @@ Java Application:
 
 
 Hadoop:
+
 	1. Login to the master node. Using FileZilla or scp tools copy the following scripts on the root location.
 			a. install_scripts.sh
 			b. openCV_scripts.sh
@@ -95,6 +97,7 @@ Hadoop:
 
 
 Spark (standalone mode):
+
 	1. If you have already installed as instructed in the above instructions then continue to Step-2 or else go through the  
 	   Steps 1 to 10 in the Hadoop installation instructions.
 
@@ -127,6 +130,7 @@ Spark (standalone mode):
 
 
 Spark (Cluster mode):
+
 	1. Logon to any AWS instance and go through the Step - 1 to Step - 3 in the Hadoop installation instructions.
 
 	2. After updating the configuration files, we can start the spark master at the directory "spark/sbin/" by executing the 
