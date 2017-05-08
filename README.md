@@ -10,7 +10,7 @@ Running the WormSegmenter on Spark cluster.
 *** Installation and execution of WormSegmenter application on Spark ***
 
 This document provides the details about how to install the required application files, change configurations 
-and run the application with required datasets.
+and run the application.
 
 ## Java Application:
 
