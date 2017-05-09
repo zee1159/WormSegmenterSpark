@@ -1,11 +1,10 @@
 # Worm Segmenter Spark
-Running the WormSegmenter on Spark cluster.
+Running the Worm Segmenter on Spark cluster.
 
 ### Files Description
-1. *install_scripts.sh*: Script for installing all the required applications
-2. *openCV_scripts.sh*: Script for installing openCV libraries
+1. **install_scripts.sh**: Script for installing all the required applications
+2. **openCV_scripts.sh**: Script for installing openCV libraries
 
-*
 
 ### Installation and execution of WormSegmenter application on Spark
 
